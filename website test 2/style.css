@@ -1,0 +1,267 @@
+
+body {
+    background-color: black;
+}
+
+.slider {
+    margin: 50px auto;
+    align-items: center;
+    text-align: center;
+}
+
+.imagebox img {
+   width: 600px;
+   height: 1000px;
+   
+}
+
+/* this is for the header image and text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.center {
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 40%;
+    left: 45%;
+    transform: translate(-43%, -50%);
+    font-size: 600%;
+}
+
+
+/*button*/
+.btn{
+  transition: transform .25s, opacity .25s;
+  cursor: pointer;
+  font-size: 160%;
+  border: 2px solid rebeccapurple;
+  background-color: black;    
+  border-radius: 4px;
+  opacity: .7;
+  text-align: center;
+  color: white;
+  padding: 10px 30px;
+
+}
+
+
+
+.btn:hover {
+  opacity: 1;
+  transform: rotate(2deg);
+
+}
+
+
+.buttoncontact:hover {
+
+  opacity: 1;
+}
+
+/*header*/
+
+header #nav {
+  background-color: #000000;
+  border: 2px solid rebeccapurple;
+  font-size: 20px;
+  width: 98%;
+  margin: auto;
+  color: #ffffff;
+}
+
+
+a {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-size: 150%;
+    
+
+}
+
+a:hover{
+    color: rebeccapurple;
+}
+
+
+/*footer */
+footer{
+    color: #ffffff;
+    margin-top: 12px;
+    margin-bottom: 15px;
+    float: left;
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+}
+
+footer p {
+    margin: auto;
+}
+ 
+
+/*header buttons*/
+header{
+  text-align: center;
+}
+
+
+
+/*for image's placesment*/
+ 
+.rightimage {
+    clear: right;
+    float:left;
+    margin-left:40px;
+    image-resolution: 200;
+}
+
+.leftimage {
+  clear: left;
+  float:right;
+  margin-left:20px;
+}
+  
+/* specific to Characters */
+.chractertable, .chractertable td { 
+    width: 100%;
+}
+
+/* clearfix hack to prevent image overflow. check out the W3Schools page on it. */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.subPage {
+  color: #ffffff;  
+  width: 800px;
+  max-width: 98%;
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 0px 12px 12px;
+  text-align: center;
+  font-size: large;
+}
+
+
+.textstyle {
+    color: #ffffff;
+    text-align: center;
+    max-width: 500px ;
+}
+
+
+
+
+/* style author notes */
+#authorNotes {
+  background-color:#000000;
+  outline: 3px solid rebeccapurple;
+  margin: auto;
+  padding: 3px;
+  padding-top: 0px;
+  width: 900px;
+  max-width: 98%;
+  color: #ffffff;
+  text-align: center;
+}
+
+
+/* ARCHIVE PAGE */
+
+/* style table in which archive is displayed */
+.archiveTable {
+  width: 90%;
+  border-collapse:collapse;
+}
+
+/* style archive table cells */
+.archiveTable td {
+  padding: 3px;
+  vertical-align: center;
+  
+}
+
+/* style table cell in which page title is displayed */
+.archiveCellTitle:not(.leftAlignTableText) {
+  max-width: 300px;
+  text-align: center;
+}
+
+.archiveCellDate {
+  text-align: right;
+  min-width: 120px;
+}
+
+.archiveCellNum {
+  text-align: center;
+  min-width: 30px;
+}
+
+/* style the thumbnails on the archive page */
+.archiveCellThumb {
+    width: 500px;
+    max-width: 60px;
+}
+.archiveCellThumb img{
+    max-width: 100%;
+  }
+
+/* for left aligning the text in a table cell */
+.leftAlignTableText td {
+  text-align: left;
+}
+
+/* highlight a table row and make pointer into hand when moused over */
+.archiveRow:hover {
+  background-color: rebeccapurple;
+  cursor: pointer;
+}
+
+
+/* style nav button images */
+.comicNav {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px;
+  
+}
+.comicNav img {
+  width: 80px;
+  max-width: 98%;
+  padding-right: 30px;
+}
+
+/* style comic page image */
+.comicPage img {
+  width: 900px;
+  max-width: 98%;
+}
+
+.writePageClickable{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px;
+}
+
+.writePageTitle {
+  text-align: center;
+  color: #ffffff;
+}
+
+.rightPic {
+  clear: right;
+  float:left;
+  margin-left:20px;
+}
